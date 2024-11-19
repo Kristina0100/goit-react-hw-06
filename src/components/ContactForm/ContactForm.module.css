@@ -1,10 +1,10 @@
 .form {
-  max-width: 250px;
+  max-width: 222px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  border: 1px solid black;
+  border: 1px solid dodgerblue;
   border-radius: 6px;
   padding: 12px;
 }
@@ -20,6 +20,8 @@
   outline: none;
   height: 18px;
   padding: 2px 5px;
+  border: 1px solid darkblue;
+  border-radius: 3px;
 }
 
 .field:focus {
@@ -30,8 +32,11 @@
   padding: 8px;
   align-self: center;
   border: none;
-  border: 1px solid dodgerblue;
   border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: lightskyblue;
 }
 
 .error {

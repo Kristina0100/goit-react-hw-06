@@ -7,7 +7,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import styles from "./Contact.module.css";
 
 const Contact = (props) => {
-  const { name, number, id} = props;
+  const { name, number, id } = props;
+  
   const dispatch = useDispatch();
   
     const onDeleteContact = (contactId) => {

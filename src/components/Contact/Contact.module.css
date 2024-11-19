@@ -3,15 +3,19 @@
   width: 230px;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid dodgerblue;
   border-radius: 4px;
   padding: 10px 8px;
 }
 
 .button {
   padding: 7px 9px;
-  border: 1px solid red;
+  border: none;
   border-radius: 3px;
+}
+
+.button:hover {
+  background-color: lightcoral;
 }
 
 .name {

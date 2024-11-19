@@ -16,11 +16,6 @@ const ContactForm = () => {
 
   const dispatch = useDispatch();
 
-  const handleSubmit = (values, actions) => {
-    onAddContact(values);
-    actions.resetForm();
-  };
-
   const onAddContact = (formData) => {
     const finalContact = {
       ...formData,
@@ -29,6 +24,12 @@ const ContactForm = () => {
 
     const action = addContact(finalContact);
     dispatch(action);
+  };
+
+  
+  const handleSubmit = (values, actions) => {
+    onAddContact(values);
+    actions.resetForm();
   };
 
   return (
